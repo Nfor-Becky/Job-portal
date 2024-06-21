@@ -1,0 +1,427 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.navbar-brand {
+    margin: 0 20% 0 .5%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav ul {
+    margin: 0 28% 0 23%;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+nav ul li a:hover {
+    color: rgb(65, 116, 117);
+}
+
+
+/* home start */
+#home {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('pic4.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.text-home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* home end */
+
+/* howitworks start */
+#process {
+    height: 50vh;
+    padding-top: 50px;
+
+}
+
+.box-containers {
+    border: 1px solid #f0f0f0;
+    background-color: #f0f0f0;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    margin-right: 30px;
+
+}
+
+
+.box-containers .link a {
+    text-decoration: none;
+}
+
+/* howitworks end */
+
+
+/*job listing start */
+#post {
+    height: 200vh;
+    width: 100%;
+}
+
+.post {
+
+    color: black;
+}
+
+article {
+    margin: 5vh 20vw;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(127, 197, 255);
+}
+
+/* job listing end */
+
+/* job posting start */
+.job_posting {
+    height: 100vh;
+    width: 100%;
+    color: black;
+    background-color: rgb(127, 191, 255);
+}
+
+.job_posting .form {
+    max-width: 480px;
+    justify-content: center;
+    color: rgb(6, 6, 6);
+    margin-left: 35%;
+    padding: 10vh 0 0 0;
+
+}
+
+.job_posting .form h1 {
+    color: #0b1113;
+    text-align: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.form .btn {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+
+/* job posting end*/
+
+/* profile start */
+.profile {
+    height: 100vh;
+    width: 100%;
+    color: black;
+}
+
+/* profile end */
+
+/* categories start */
+.explore {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.card .link {
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 10% 0;
+}
+
+.card .link a {
+    text-decoration: none;
+}
+
+
+/* categories end */
+
+/* services start*/
+#services {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('pic3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.content {
+    padding-top: 8%;
+}
+
+/* services end*/
+/* testimonials start */
+.testimonials-content {
+    padding-top: 10%;
+}
+
+/* testimonials end */
+
+/* about us start */
+.main-abt {
+    padding: 30px;
+}
+
+.abt {
+    padding: 50px 0 10px 0;
+}
+
+/* about us end */
+
+/* contact start */
+.contact {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('pic5.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.form {
+    max-width: 480px;
+    justify-content: center;
+    color: white;
+    margin-left: 35%;
+    padding: 10vh 0 0 0;
+
+}
+
+.form h1 {
+    color: #d6e6ec;
+    text-align: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.form .btn {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input label {
+    font-size: 20px;
+}
+
+.input textarea {
+    height: 20vh;
+    border-radius: 4px;
+}
+
+.input input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-contact {
+    padding: 16px;
+    border: 1px solid #eaeaea;
+}
+
+/* contact end */
+/*profile details start*/
+.details {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.detail {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+/*profile details end*/
+
+/* footer */
+
+.footer {
+    min-height: 10rem;
+    width: 100%;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    gap: 4rem;
+}
+
+.footer .box-container .box h3 {
+    color: rgb(41, 57, 194);
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer .box-container .box a {
+    text-decoration: none;
+    color: grey;
+    display: block;
+    padding-bottom: 0.3rem;
+    font-size: 0.9rem;
+
+}
+
+.footer .box-container .box a:hover {
+    color: rgb(41, 57, 194);
+    padding-right: 0.5rem;
+    transition: .2s linear;
+}
+
+/* footer end */
+
+/* media query */
+
+@media (max-width:768px) {
+
+    /* about */
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 15px;
+        padding-bottom: 2rem;
+    }
+
+    .row .column {
+        padding: 20px;
+    }
+
+    .about_head p {
+        text-align: center;
+        font-size: 20px;
+        padding: 0 30px 20px 30px;
+    }
+
+    .row .column p {
+        text-align: center;
+        font-size: 20px;
+        padding: 0 30px 0 30px;
+    }
+
+    .btn {
+        display: inline-block;
+        background-color: grey;
+        margin-top: 1rem;
+        font-size: 1rem;
+        padding: 0.8rem 2rem;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    .nav_bar h1 {
+        color: aqua;
+        font-size: 25px;
+    }
+
+    .home .slide .content span {
+        display: block;
+        font-size: 2.5rem;
+        color: aqua;
+        padding-bottom: 1rem;
+    }
+
+    .button {
+        display: flex;
+        margin: auto;
+        background-color: aqua;
+        font-size: 1rem;
+        padding: 14px 20px 14px 20px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    .service .button {
+        display: flex;
+        margin: auto;
+        font-size: 1rem;
+        padding: 14px 20px 14px 20px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    /* conatact */
+    .contact p {
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .container {
+        padding: 5px 0;
+    }
+
+    .form {
+        max-width: 480px;
+        justify-content: center;
+        color: white;
+        margin-left: 3%;
+        padding: 10vh 0 0 0;
+
+    }
+
+    .row img {
+        width: 250px;
+    }
+
+    .content h1 p {
+        font-size: 10px;
+    }
+
+    #process {
+        height: 80vh;
+        padding-top: 50px;
+
+    }
+
+}
